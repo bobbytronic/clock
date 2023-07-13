@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DisplayTime</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</head>
+<body>
+   <!-- <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">World Time</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Time Zones
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li id="UTC-12:00"><a class="dropdown-item" href="#">UTC-12:00</a></li>
+                      <li id="UTC-11:00"><a class="dropdown-item" href="#">UTC-11:00</a></li>
+                      <li><a class="dropdown-item" href="#">UTC-10:00</a></li>
+                      <li><a class="dropdown-item" href="#">UTC-9:30</a></li>
+                      <li><a class="dropdown-item" href="#">UTC-9:00</a></li>
+                      <li><a class="dropdown-item" href="#">UTC-8:00</a></li>
+                      <li><a class="dropdown-item" href="#">UTC-7:00</a></li>
+                      <li><a class="dropdown-item" href="#">UTC-6:00</a></li>
+                      <li><a class="dropdown-item" href="#">UTC-5:00</a></li>
+                      <li><a class="dropdown-item" href="#">UTC-4:00</a></li>
+                      <li><a class="dropdown-item" href="#">UTC-3:30</a></li>
+                      <li><a class="dropdown-item" href="#">UTC-3:00</a></li>
+                      <li><a class="dropdown-item" href="#">UTC-2:00</a></li>
+                      <li><a class="dropdown-item" href="#">UTC-1:00</a></li>
+                      <li><a class="dropdown-item" href="#">UTC+0:00</a></li>
+                      <li><a class="dropdown-item" href="#">UTC+1:00</a></li>
+                      <li><a class="dropdown-item" href="#">UTC+2:00</a></li>
+                      <li><a class="dropdown-item" href="#">UTC+3:00</a></li>
+                      <li><a class="dropdown-item" href="#">UTC+3:30</a></li>
+                      <li><a class="dropdown-item" href="#">UTC+4:00</a></li>
+                      <li><a class="dropdown-item" href="#">UTC+4:30</a></li>
+                      <li><a class="dropdown-item" href="#">UTC+5:00</a></li>
+                      <li><a class="dropdown-item" href="#">UTC+5:30</a></li>
+                      <li><a class="dropdown-item" href="#">UTC+5:45</a></li>
+                      <li><a class="dropdown-item" href="#">UTC+6:00</a></li>
+                      <li><a class="dropdown-item" href="#">UTC+6:30</a></li>
+                      <li><a class="dropdown-item" href="#">UTC+7:00</a></li>
+                      <li><a class="dropdown-item" href="#">UTC+8:00</a></li>
+                      <li><a class="dropdown-item" href="#">UTC+8:45</a></li>
+                      <li><a class="dropdown-item" href="#">UTC+9:00</a></li>
+                      <li><a class="dropdown-item" href="#">UTC+9:30</a></li>
+                      <li><a class="dropdown-item" href="#">UTC+10:00</a></li>
+                      <li><a class="dropdown-item" href="#">UTC+10:30</a></li>
+                      <li><a class="dropdown-item" href="#">UTC+11:00</a></li>
+                      <li><a class="dropdown-item" href="#">UTC+12:00</a></li>
+                      <li><a class="dropdown-item" href="#">UTC+12:45</a></li>
+                      <li><a class="dropdown-item" href="#">UTC+13:00</a></li>
+                      <li><a class="dropdown-item" href="#">UTC+14:00</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>-->
+    <main>
+        <section>
+            <div class="px-4 py-5 my-5 text-center">
+                <h1 class="display-5 fw-bold text-body-emphasis">World Time</h1>
+                <div class="col-lg-6 mx-auto">
+                </div>
+              </div>
+        </section>
+        <section>
+            <div class="px-4 py-5 my-5 text-center">
+                <h1 id="time" class="display-5 fw-bold text-body-emphasis"></h1>
+                <div class="col-lg-6 mx-auto">
+                </div>
+              </div>
+        </section>
+
+    </main>
+    <footer>
+
+    </footer>
+    <script src="./app.js"></script>
+
+</body>
+
+</html>
